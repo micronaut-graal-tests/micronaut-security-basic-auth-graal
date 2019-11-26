@@ -1,3 +1,10 @@
 micronaut:
   application:
     name: micronaut-security-basicauth-graal
+---
+micronaut:
+  security:
+    enabled: true
+    endpoints:
+      login:
+        enabled: true
