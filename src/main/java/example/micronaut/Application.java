@@ -1,4 +1,4 @@
-package micronaut.security.basicauth.graal;
+package example.micronaut;
 
 import io.micronaut.runtime.Micronaut;
 

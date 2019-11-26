@@ -6,7 +6,7 @@ plugins {
 }
 
 version "0.1"
-group "micronaut.security.basicauth.graal"
+group "example.micronaut"
 
 repositories {
     mavenCentral()
@@ -47,7 +47,7 @@ dependencies {
 
 test.classpath += configurations.developmentOnly
 
-mainClassName = "micronaut.security.basicauth.graal.Application"
+mainClassName = "example.micronaut.Application"
 // use JUnit 5 platform
 test {
     useJUnitPlatform()
