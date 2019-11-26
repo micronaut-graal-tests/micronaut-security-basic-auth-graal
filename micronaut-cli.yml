@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micronaut.security.basicauth.graal
+---
+testFramework: spock
+sourceLanguage: java
