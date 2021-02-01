@@ -43,4 +43,5 @@ java {
 
 nativeImage {
     imageName('security-basic-auth')
+    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
